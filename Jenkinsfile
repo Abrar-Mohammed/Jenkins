@@ -1,7 +1,13 @@
-echo "This is my first Jenkins Pipeline Job created. Wish me luck!"
-echo "I don't know what I should start to code" 
+echo "I am onto something"
 
-{
-  sh 'pwd;ls -la'
+pipeline {
+    agent { any { image 'python:3.5.1' } }
+    stages {
+        stage('build') {
+            steps {
+                sh 'python --version'
+            }
+        }
+    }
 }
 
