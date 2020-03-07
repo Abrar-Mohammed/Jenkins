@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-sh ...
+sh '''
 
 pwd
 
@@ -10,4 +10,4 @@ ls -latr
 
 df -hP
 
-...
+'''
