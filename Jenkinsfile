@@ -1,13 +1,12 @@
 echo "I am onto something.. edited in main"
 
-pipeline {
-    agent { any { image 'python:3.5.1' } }
-    stages {
-        stage('build') {
-            steps {
-                sh 'python --version'
-            }
-        }
-    }
-}
+echo "This works in Linux too "
+
+pwd
+
+cd $(pwd)
+
+ls -latr 
+
+df -hP
 
