@@ -1,6 +1,6 @@
 #!/usr/bin/env groovy
 
-node Linux_slave {
+node 192.168.67.128 {
 sh '''
 
 pwd
