@@ -1,7 +1,6 @@
-#!/usr/bin/env bash
-echo "I am onto something.. edited in main"
+#!/usr/bin/env groovy
 
-echo "This works in Linux too "
+sh ...
 
 pwd
 
@@ -11,3 +10,4 @@ ls -latr
 
 df -hP
 
+...
