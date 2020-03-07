@@ -1,5 +1,6 @@
 #!/usr/bin/env groovy
 
+node {
 sh '''
 
 pwd
@@ -11,3 +12,4 @@ ls -latr
 df -hP
 
 '''
+}
